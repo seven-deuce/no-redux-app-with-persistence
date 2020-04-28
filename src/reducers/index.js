@@ -13,6 +13,7 @@ function combineReducers(array) {
         persist.save(result);
         return result;
       }
+       return state;
     }
   };
 }
